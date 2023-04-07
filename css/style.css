@@ -95,7 +95,7 @@ a:hover {
 
 footer {
   background-color: #000000;
-  position: fixed;
+  position: relative;
   height: 41px;
   bottom: 0px;
 }
@@ -108,6 +108,7 @@ footer {
   max-width: 881px;
   margin: 0 auto;
   padding: 0 10px;
+  height: 902px;
 }
 
 section#index-contant {
@@ -357,6 +358,10 @@ h3 {
   line-height: 128px;
 }
 
+#layout2-footer {
+  position: fixed;
+}
+
 /* layout3 desktop + tablet */
 
 #layout3-wrapper {
@@ -408,13 +413,6 @@ header>section {
 .secondary-footer {
   background-color: #EBEF18;
   height: 463px;
-}
-
-#layout3-footer {
-  background-color: #000000;
-  position: relative;
-  height: 41px;
-  bottom: 0px;
 }
 
 /* layout3 mobile */
